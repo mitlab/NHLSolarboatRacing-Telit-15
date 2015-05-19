@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=NHLSolarboatRacing.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\NHLSolarboatRacing -TC:\CooCox\CoIDE\configuration\ProgramData\NHLSolarboatRacing/arm-gcc-link.ld -g">
+      <target file="NHLSolarboatRacing.elf" lastModified="146ee9c1d88">
+         <source file="..\obj\NotificationTask.o" lastModified="146ee9bd6fc"/>
+         <source file="..\obj\lpc17xx_can.o" lastModified="146ee9bda1d"/>
+         <source file="..\obj\kernelHeap.o" lastModified="146ee9bdb47"/>
+         <source file="..\obj\SensorDataManager.o" lastModified="146ee9bdd6f"/>
+         <source file="..\obj\core.o" lastModified="146ee9bde8e"/>
+         <source file="..\obj\Debug.o" lastModified="146ee9bdffb"/>
+         <source file="..\obj\core_cm3.o" lastModified="146ee9be140"/>
+         <source file="..\obj\timer.o" lastModified="146ee9be29c"/>
+         <source file="..\obj\CanTask.o" lastModified="146ee9be466"/>
+         <source file="..\obj\lpc17xx_clkpwr.o" lastModified="146ee9be5c5"/>
+         <source file="..\obj\utility.o" lastModified="146ee9be6b7"/>
+         <source file="..\obj\system_LPC17xx.o" lastModified="146ee9be7bc"/>
+         <source file="..\obj\lpc17xx_uart.o" lastModified="146ee9bea10"/>
+         <source file="..\obj\task.o" lastModified="146ee9beb8a"/>
+         <source file="..\obj\diskio.o" lastModified="146ee9bec8a"/>
+         <source file="..\obj\serviceReq.o" lastModified="146ee9bed4d"/>
+         <source file="..\obj\lpc17xx_gpdma.o" lastModified="146ee9bee91"/>
+         <source file="..\obj\main.o" lastModified="146ee9bf000"/>
+         <source file="..\obj\spi_sd_lpc17xx.o" lastModified="146ee9bf207"/>
+         <source file="..\obj\lpc17xx_gpio.o" lastModified="146ee9bf3fe"/>
+         <source file="..\obj\mbox.o" lastModified="146ee9bf52f"/>
+         <source file="..\obj\mm.o" lastModified="146ee9bf645"/>
+         <source file="..\obj\startup_LPC17xx.o" lastModified="146ee9bf70a"/>
+         <source file="..\obj\lpc17xx_ssp.o" lastModified="146ee9bf919"/>
+         <source file="..\obj\ThreadSafeQueue.o" lastModified="146ee9bfa8b"/>
+         <source file="..\obj\lpc17xx_libcfg_default.o" lastModified="146ee9bfb5e"/>
+         <source file="..\obj\time.o" lastModified="146ee9bfc77"/>
+         <source file="..\obj\event.o" lastModified="146ee9bfd8f"/>
+         <source file="..\obj\lpc17xx_pinsel.o" lastModified="146ee9bfe92"/>
+         <source file="..\obj\syscalls.o" lastModified="146ee9bff90"/>
+         <source file="..\obj\Misc.o" lastModified="146ee9c00d4"/>
+         <source file="..\obj\queue.o" lastModified="146ee9c021e"/>
+         <source file="..\obj\port.o" lastModified="146ee9c0321"/>
+         <source file="..\obj\mutex.o" lastModified="146ee9c0446"/>
+         <source file="..\obj\flag.o" lastModified="146ee9c05ae"/>
+         <source file="..\obj\ff.o" lastModified="146ee9c0a50"/>
+         <source file="..\obj\lpc17xx_rtc.o" lastModified="146ee9c0bd6"/>
+         <source file="..\obj\lpc17xx_nvic.o" lastModified="146ee9c0cd4"/>
+         <source file="..\obj\arch.o" lastModified="146ee9c0def"/>
+         <source file="..\obj\StorageTask.o" lastModified="146ee9c0fe2"/>
+         <source file="..\obj\TelemetryTask.o" lastModified="146ee9c11b6"/>
+         <source file="..\obj\sem.o" lastModified="146ee9c12d5"/>
+         <source file="..\obj\fattime.o" lastModified="146ee9c1416"/>
+         <source file="..\obj\hook.o" lastModified="146ee9c14f9"/>
+         <source file="..\obj\GM862.o" lastModified="146ee9c1783"/>
+      </target>
+   </processor>
+</history>

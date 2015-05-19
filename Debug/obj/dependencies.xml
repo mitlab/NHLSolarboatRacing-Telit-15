@@ -1,0 +1,373 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I. /Ilpc17xx_lib /Ilpc17xx_lib\include /Icmsis /Icmsis_boot /ICoOS\portable /ICoOS /ICoOS\kernel">
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_uart.h" lastModified="13728358080">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\CoOS\portable\GCC\port.c" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\syscalls\syscalls.c" lastModified="137cb5ebd42">
+      </source>
+      <source file="..\..\CoOS\kernel\sem.c" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\mutex.c" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\coocox.h" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\CoOS.h"/>
+         <include file="..\..\CoOS\portable\OsArch.h"/>
+         <include file="..\..\CoOS\kernel\OsCore.h"/>
+         <include file="..\..\CoOS\kernel\OsTask.h"/>
+         <include file="..\..\CoOS\kernel\OsServiceReq.h"/>
+         <include file="..\..\CoOS\kernel\OsError.h"/>
+         <include file="..\..\CoOS\kernel\OsTime.h"/>
+         <include file="..\..\CoOS\kernel\OsTimer.h"/>
+         <include file="..\..\CoOS\kernel\OsKernelHeap.h"/>
+         <include file="..\..\CoOS\kernel\OsMM.h"/>
+         <include file="..\..\CoOS\kernel\OsEvent.h"/>
+         <include file="..\..\CoOS\kernel\OsMutex.h"/>
+         <include file="..\..\CoOS\kernel\OsQueue.h"/>
+         <include file="..\..\CoOS\kernel\OsFlag.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_ssp.h" lastModified="137cb5ef60e">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\mbox.c" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_clkpwr.c" lastModified="137cb5ed278">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+      </source>
+      <source file="..\..\cmsis\core_cm3.h" lastModified="137cb5ec335">
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h" lastModified="137cb5ec1e5">
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\OsFlag.h" lastModified="1372d85ea20">
+      </source>
+      <source file="..\..\NotificationTask.h" lastModified="1380996ebcc">
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_uart.h"/>
+         <include file="..\..\CoOS\kernel\CoOS.h"/>
+         <include file="..\..\Debug.h"/>
+      </source>
+      <source file="..\..\cmsis\core_cm3.c" lastModified="137cb5ebf3e">
+      </source>
+      <source file="..\..\NotificationTask.c" lastModified="13809e1acdf">
+         <include file="..\..\NotificationTask.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\OsTime.h" lastModified="1372d85ea20">
+      </source>
+      <source file="..\..\CoOS\kernel\queue.c" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_gpio.c" lastModified="137cb5eea7d">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\Debug.h" lastModified="137dc90c058">
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_pinsel.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_rtc.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_uart.h"/>
+         <include file="..\..\CoOS\kernel\CoOS.h"/>
+      </source>
+      <source file="..\..\Debug.c" lastModified="13856bf73c7">
+         <include file="..\..\Debug.h"/>
+      </source>
+      <source file="..\..\cmsis_boot\system_LPC17xx.h" lastModified="137cb5ecc5d">
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_gpdma.h" lastModified="137933b96a8">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\cmsis_boot\system_LPC17xx.c" lastModified="137efde7486">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+      </source>
+      <source file="..\..\fat_sd\integer.h" lastModified="129b6fb9d30">
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_can.c" lastModified="137cb5ef4f5">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_can.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\mm.c" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\hook.c" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_rtc.c" lastModified="13797d2ae01">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_rtc.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_uart.c" lastModified="13728358468">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_uart.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_nvic.h" lastModified="137cb5ee073">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\flag.c" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_pinsel.c" lastModified="137cb5eec42">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_pinsel.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_gpdma.c" lastModified="137933b9a90">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_gpdma.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\OsEvent.h" lastModified="1372d85ea20">
+      </source>
+      <source file="..\..\SensorDataManager.h" lastModified="137cbb27b1e">
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_can.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_uart.h"/>
+         <include file="..\..\CoOS\kernel\CoOS.h"/>
+         <include file="..\..\Debug.h"/>
+         <include file="..\..\GM862.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\OsError.h" lastModified="1372d85ea20">
+      </source>
+      <source file="..\..\fat_sd\fattime.c" lastModified="137dd01f4d0">
+         <include file="..\..\fat_sd\integer.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_rtc.h"/>
+      </source>
+      <source file="..\..\SensorDataManager.c" lastModified="138588e8ae3">
+         <include file="..\..\SensorDataManager.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\OsKernelHeap.h" lastModified="1372d85ea20">
+      </source>
+      <source file="..\..\CoOS\kernel\time.c" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\fat_sd\ffconf.h" lastModified="13793b8e8b0">
+      </source>
+      <source file="..\..\CoOS\kernel\timer.c" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\CoOS\portable\arch.c" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\CoOS.h" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\OsConfig.h"/>
+      </source>
+      <source file="..\..\fat_sd\ff.h" lastModified="1289addb260">
+         <include file="..\..\fat_sd\integer.h"/>
+         <include file="..\..\fat_sd\ffconf.h"/>
+      </source>
+      <source file="..\..\StorageTask.h" lastModified="13832784d54">
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_can.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_rtc.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_uart.h"/>
+         <include file="..\..\CoOS\kernel\CoOS.h"/>
+         <include file="..\..\Debug.h"/>
+      </source>
+      <source file="..\..\fat_sd\ff.c" lastModified="129b75cbc78">
+         <include file="..\..\fat_sd\ff.h"/>
+         <include file="..\..\fat_sd\diskio.h"/>
+      </source>
+      <source file="..\..\StorageTask.c" lastModified="13832d81b3b">
+         <include file="..\..\StorageTask.h"/>
+         <include file="..\..\fat_sd\diskio.h"/>
+         <include file="..\..\fat_sd\ff.h"/>
+      </source>
+      <source file="..\..\main.c" lastModified="138583eb01d">
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_pinsel.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_rtc.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_uart.h"/>
+         <include file="..\..\CoOS\kernel\CoOS.h"/>
+         <include file="..\..\Debug.h"/>
+         <include file="..\..\ThreadSafeQueue.h"/>
+         <include file="..\..\TelemetryTask.h"/>
+         <include file="..\..\CanTask.h"/>
+         <include file="..\..\StorageTask.h"/>
+         <include file="..\..\NotificationTask.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_nvic.c" lastModified="137cb5ee082">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_nvic.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\OsMutex.h" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\TelemetryTask.h" lastModified="1383308c06f">
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_pinsel.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_rtc.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_uart.h"/>
+         <include file="..\..\CoOS\kernel\CoOS.h"/>
+         <include file="..\..\Debug.h"/>
+         <include file="..\..\ThreadSafeQueue.h"/>
+         <include file="..\..\GM862.h"/>
+      </source>
+      <source file="..\..\Misc.h" lastModified="137dc7b6cd8">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_rtc.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc_types.h" lastModified="137cb5ec5dd">
+      </source>
+      <source file="..\..\TelemetryTask.c" lastModified="138588fafbc">
+         <include file="..\..\TelemetryTask.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_libcfg_default.c" lastModified="137cb5ec205">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\OsCore.h" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\CoOS.h"/>
+      </source>
+      <source file="..\..\Misc.c" lastModified="137f2311686">
+         <include file="..\..\Misc.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\OsTask.h" lastModified="1372d85ea20">
+      </source>
+      <source file="..\..\lpc17xx_lib\source\lpc17xx_ssp.c" lastModified="137cb5ef9f6">
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_ssp.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\OsConfig.h" lastModified="137f033c69c">
+      </source>
+      <source file="..\..\cmsis_boot\LPC17xx.h" lastModified="137cb5ec86d">
+         <include file="..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\cmsis_boot\system_LPC17xx.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\OsServiceReq.h" lastModified="1372d85ea20">
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_can.h" lastModified="137cb5ef0f5">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\kernelHeap.c" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_rtc.h" lastModified="13797d2a9ea">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h" lastModified="137cb5ed278">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\CoOS\portable\OsArch.h" lastModified="1372d85ea20">
+      </source>
+      <source file="..\..\CoOS\kernel\OsMM.h" lastModified="1372d85ea20">
+      </source>
+      <source file="..\..\CoOS\kernel\OsQueue.h" lastModified="1372d85ea20">
+      </source>
+      <source file="..\..\CoOS\kernel\core.c" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\fat_sd\spi_sd_lpc17xx.h" lastModified="129b7509330">
+         <include file="..\..\fat_sd\diskio.h"/>
+      </source>
+      <source file="..\..\CanTask.h" lastModified="1383308df37">
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_can.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_uart.h"/>
+         <include file="..\..\CoOS\kernel\CoOS.h"/>
+         <include file="..\..\Debug.h"/>
+         <include file="..\..\SensorDataManager.h"/>
+      </source>
+      <source file="..\..\fat_sd\diskio.h" lastModified="1379398fcd0">
+         <include file="..\..\fat_sd\integer.h"/>
+      </source>
+      <source file="..\..\fat_sd\spi_sd_lpc17xx.c" lastModified="137e61caa94">
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_pinsel.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_ssp.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_gpdma.h"/>
+         <include file="..\..\fat_sd\integer.h"/>
+         <include file="..\..\fat_sd\spi_sd_lpc17xx.h"/>
+      </source>
+      <source file="..\..\CanTask.c" lastModified="1385842e2f0">
+         <include file="..\..\CanTask.h"/>
+      </source>
+      <source file="..\..\fat_sd\diskio.c" lastModified="129d01614f8">
+         <include file="..\..\fat_sd\diskio.h"/>
+         <include file="..\..\fat_sd\spi_sd_lpc17xx.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\event.c" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\ThreadSafeQueue.h" lastModified="137c32e1fe8">
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_uart.h"/>
+         <include file="..\..\CoOS\kernel\CoOS.h"/>
+      </source>
+      <source file="..\..\GM862.h" lastModified="138335d8f3a">
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_clkpwr.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_gpio.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_libcfg_default.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_nvic.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_pinsel.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc17xx_uart.h"/>
+         <include file="..\..\CoOS\kernel\CoOS.h"/>
+         <include file="..\..\Debug.h"/>
+      </source>
+      <source file="..\..\ThreadSafeQueue.c" lastModified="13774a15e68">
+         <include file="..\..\ThreadSafeQueue.h"/>
+      </source>
+      <source file="..\..\GM862.c" lastModified="138335ccdaf">
+         <include file="..\..\GM862.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_pinsel.h" lastModified="137cb5eec3a">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\cmsis_boot\startup\startup_LPC17xx.c" lastModified="138338d1c9e">
+      </source>
+      <source file="..\..\CoOS\kernel\utility.c" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\task.c" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\lpc17xx_lib\include\lpc17xx_gpio.h" lastModified="137cb5ee67d">
+         <include file="..\..\cmsis_boot\LPC17xx.h"/>
+         <include file="..\..\lpc17xx_lib\include\lpc_types.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\serviceReq.c" lastModified="1372d85ea20">
+         <include file="..\..\CoOS\kernel\coocox.h"/>
+      </source>
+      <source file="..\..\CoOS\kernel\OsTimer.h" lastModified="1372d85ea20">
+      </source>
+   </includePath>
+</dependencies>

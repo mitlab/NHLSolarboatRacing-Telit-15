@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -O0 -g -c -DLPC1769 -I. -Ilpc17xx_lib -Ilpc17xx_lib\include -Icmsis -Icmsis_boot -ICoOS\portable -ICoOS -ICoOS\kernel">
+      <target file="syscalls.o" lastModified="13832fdb2e2">
+         <source file="..\..\syscalls\syscalls.c" lastModified="137cb5eada2"/>
+      </target>
+      <target file="event.o" lastModified="13832fdb208">
+         <source file="..\..\CoOS\kernel\event.c" lastModified="1372d85ea20"/>
+      </target>
+      <target file="lpc17xx_gpdma.o" lastModified="13832fdada2">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_gpdma.c" lastModified="137933b96a8"/>
+      </target>
+      <target file="lpc17xx_nvic.o" lastModified="13832fdb6e8">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_nvic.c" lastModified="137cb5ee082"/>
+      </target>
+      <target file="sem.o" lastModified="13832fdb85f">
+         <source file="..\..\CoOS\kernel\sem.c" lastModified="1372d85ea20"/>
+      </target>
+      <target file="queue.o" lastModified="13832fdb3c6">
+         <source file="..\..\CoOS\kernel\queue.c" lastModified="1372d85ea20"/>
+      </target>
+      <target file="lpc17xx_ssp.o" lastModified="13832fdb0b8">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_ssp.c" lastModified="137cb5ef60e"/>
+      </target>
+      <target file="lpc17xx_uart.o" lastModified="13832fdac57">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_uart.c" lastModified="13728358080"/>
+      </target>
+      <target file="diskio.o" lastModified="13832fdad00">
+         <source file="..\..\fat_sd\diskio.c" lastModified="129d0161110"/>
+      </target>
+      <target file="arch.o" lastModified="13832fdb726">
+         <source file="..\..\CoOS\portable\arch.c" lastModified="1372d85ea20"/>
+      </target>
+      <target file="ThreadSafeQueue.o" lastModified="13832fdb123">
+         <source file="..\..\ThreadSafeQueue.c" lastModified="13774a15e68"/>
+      </target>
+      <target file="NotificationTask.o" lastModified="13832fda6be">
+         <source file="..\..\NotificationTask.c" lastModified="13809e1acdf"/>
+      </target>
+      <target file="hook.o" lastModified="13832fdb8f4">
+         <source file="..\..\CoOS\kernel\hook.c" lastModified="1372d85ea20"/>
+      </target>
+      <target file="mutex.o" lastModified="13832fdb414">
+         <source file="..\..\CoOS\kernel\mutex.c" lastModified="1372d85ea20"/>
+      </target>
+      <target file="lpc17xx_clkpwr.o" lastModified="13832fdaafb">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_clkpwr.c" lastModified="137cb5ed278"/>
+      </target>
+      <target file="fattime.o" lastModified="13832fdb8bb">
+         <source file="..\..\fat_sd\fattime.c" lastModified="137dd01f4d0"/>
+      </target>
+      <target file="serviceReq.o" lastModified="13832fdad41">
+         <source file="..\..\CoOS\kernel\serviceReq.c" lastModified="1372d85ea20"/>
+      </target>
+      <target file="lpc17xx_pinsel.o" lastModified="13832fdb296">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_pinsel.c" lastModified="137cb5eec42"/>
+      </target>
+      <target file="lpc17xx_rtc.o" lastModified="13832fdb6a2">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_rtc.c" lastModified="13797d2aa19"/>
+      </target>
+      <target file="Debug.o" lastModified="13856c16111">
+         <source file="..\..\Debug.c" lastModified="13856bf73c7"/>
+      </target>
+      <target file="lpc17xx_can.o" lastModified="13832fda7dd">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_can.c" lastModified="137cb5ef10d"/>
+      </target>
+      <target file="Misc.o" lastModified="13832fdb338">
+         <source file="..\..\Misc.c" lastModified="137f2311686"/>
+      </target>
+      <target file="port.o" lastModified="13832fdb374">
+         <source file="..\..\CoOS\portable\GCC\port.c" lastModified="1372d85ea20"/>
+      </target>
+      <target file="utility.o" lastModified="13832fdab4f">
+         <source file="..\..\CoOS\kernel\utility.c" lastModified="1372d85ea20"/>
+      </target>
+      <target file="core_cm3.o" lastModified="13832fda996">
+         <source file="..\..\cmsis\core_cm3.c" lastModified="137cb5ebb56"/>
+      </target>
+      <target file="core.o" lastModified="13832fda8df">
+         <source file="..\..\CoOS\kernel\core.c" lastModified="1372d85ea20"/>
+      </target>
+      <target file="kernelHeap.o" lastModified="13832fda837">
+         <source file="..\..\CoOS\kernel\kernelHeap.c" lastModified="1372d85ea20"/>
+      </target>
+      <target file="system_LPC17xx.o" lastModified="13832fdaba1">
+         <source file="..\..\cmsis_boot\system_LPC17xx.c" lastModified="137efde709e"/>
+      </target>
+      <target file="SensorDataManager.o" lastModified="138588e92ea">
+         <source file="..\..\SensorDataManager.c" lastModified="138588e8ae3"/>
+      </target>
+      <target file="timer.o" lastModified="13832fdaa1f">
+         <source file="..\..\CoOS\kernel\timer.c" lastModified="1372d85ea20"/>
+      </target>
+      <target file="lpc17xx_gpio.o" lastModified="13832fdaf2c">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_gpio.c" lastModified="137cb5ee695"/>
+      </target>
+      <target file="GM862.o" lastModified="138335d9434">
+         <source file="..\..\GM862.c" lastModified="138335cc9c7"/>
+      </target>
+      <target file="flag.o" lastModified="13832fdb47b">
+         <source file="..\..\CoOS\kernel\flag.c" lastModified="1372d85ea20"/>
+      </target>
+      <target file="startup_LPC17xx.o" lastModified="138338d5ab1">
+         <source file="..\..\cmsis_boot\startup\startup_LPC17xx.c" lastModified="138338d1c9e"/>
+      </target>
+      <target file="TelemetryTask.o" lastModified="138588fb6e8">
+         <source file="..\..\TelemetryTask.c" lastModified="138588fafbc"/>
+      </target>
+      <target file="CanTask.o" lastModified="1385842e588">
+         <source file="..\..\CanTask.c" lastModified="1385842e2f0"/>
+      </target>
+      <target file="ff.o" lastModified="13832fdb5ef">
+         <source file="..\..\fat_sd\ff.c" lastModified="129b75cb890"/>
+      </target>
+      <target file="main.o" lastModified="138583eb3af">
+         <source file="..\..\main.c" lastModified="138583eac35"/>
+      </target>
+      <target file="StorageTask.o" lastModified="13832fdb79a">
+         <source file="..\..\StorageTask.c" lastModified="13832d81b3b"/>
+      </target>
+      <target file="mbox.o" lastModified="13832fdaf77">
+         <source file="..\..\CoOS\kernel\mbox.c" lastModified="1372d85ea20"/>
+      </target>
+      <target file="lpc17xx_libcfg_default.o" lastModified="13832fdb163">
+         <source file="..\..\lpc17xx_lib\source\lpc17xx_libcfg_default.c" lastModified="137cb5ec205"/>
+      </target>
+      <target file="mm.o" lastModified="13832fdafc0">
+         <source file="..\..\CoOS\kernel\mm.c" lastModified="1372d85ea20"/>
+      </target>
+      <target file="task.o" lastModified="13832fdacc1">
+         <source file="..\..\CoOS\kernel\task.c" lastModified="1372d85ea20"/>
+      </target>
+      <target file="spi_sd_lpc17xx.o" lastModified="13832fdaeaf">
+         <source file="..\..\fat_sd\spi_sd_lpc17xx.c" lastModified="137e61caa94"/>
+      </target>
+      <target file="time.o" lastModified="13832fdb1b7">
+         <source file="..\..\CoOS\kernel\time.c" lastModified="1372d85ea20"/>
+      </target>
+   </processor>
+</history>

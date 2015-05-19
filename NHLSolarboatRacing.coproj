@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Project version="2G - 2.0.2" name="NHLSolarboatRacing">
+  <Target name="NHLSolarboatRacing" isCurrent="1">
+    <Device manufacturerId="7" manufacturerName="NXP" chipId="481" chipName="LPC1769" boardId="" boardName="" coreId="" coreName=""/>
+    <BuildOption>
+      <Compile>
+        <Option name="OptimizationLevel" value="0"/>
+        <Option name="UseFPU" value="0"/>
+        <Option name="UserEditCompiler" value=""/>
+        <Option name="DEBUG" value="2"/>
+        <Option name="WARNING" value="1"/>
+        <Includepaths>
+          <Includepath path="."/>
+        </Includepaths>
+        <DefinedSymbols>
+          <Define name="LPC1769"/>
+        </DefinedSymbols>
+      </Compile>
+      <Link useDefault="0">
+        <Option name="DiscardUnusedSection" value="0"/>
+        <Option name="UserEditLinkder" value=""/>
+        <Option name="UseMemoryLayout" value="1"/>
+        <Option name="DiscardUnusedSections" value="1"/>
+        <Option name="Library" value="Not use C Library"/>
+        <LinkedLibraries/>
+        <MemoryAreas debugInFlashNotRAM="1">
+          <Memory name="IROM1" type="ReadOnly" size="0x00080000" startValue="0x00000000"/>
+          <Memory name="IRAM1" type="ReadWrite" size="0x00008000" startValue="0x10000000"/>
+          <Memory name="IROM2" type="ReadOnly" size="" startValue=""/>
+          <Memory name="IRAM2" type="ReadWrite" size="0x00008000" startValue="0x2007C000"/>
+        </MemoryAreas>
+        <LocateLinkFile path="../../appdata/roaming/coocox/coide/configuration/programdata/nhlsolarboatracing/arm-gcc-link.ld" type="0"/>
+      </Link>
+      <Output>
+        <Option name="OutputFileType" value="0"/>
+        <Option name="Path" value="C:/Users/Timo/Dropbox/KCJ/NHL Solarboat Racing/Telemetrie/Software/Telemetrics inside boat/NHLSolarboatRacing - new battery/"/>
+        <Option name="Name" value="NHLSolarboatRacing"/>
+        <Option name="HEX" value="1"/>
+        <Option name="BIN" value="1"/>
+      </Output>
+      <User>
+        <UserRun name="Run#1" type="Before" checked="0" value=""/>
+        <UserRun name="Run#1" type="After" checked="0" value=""/>
+      </User>
+    </BuildOption>
+    <DebugOption>
+      <Option name="org.coocox.codebugger.gdbjtag.core.adapter" value="ColinkEx"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.debugMode" value="SWD"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.clockDiv" value="2M"/>
+      <Option name="org.coocox.codebugger.gdbjtag.corerunToMain" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkgdbserver" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.userDefineGDBScript" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.targetEndianess" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jlinkResetMode" value="Type 0: Normal"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.resetMode" value="VECTRESET"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifSemihost" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ifCacheRom" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.ipAddress" value="127.0.0.1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.portNumber" value="2009"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.autoDownload" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.verify" value="1"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.downloadFuction" value="Erase Effected"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.defaultAlgorithm" value="C:/CooCox/CoIDE/flash/LPC17xx_512.elf"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jflashtool" value=""/>
+      <Option name="org.coocox.codebugger.gdbjtag.coredebugInRam" value="0"/>
+      <Option name="org.coocox.codebugger.gdbjtag.core.jflashscript" value=""/>
+    </DebugOption>
+    <ExcludeFile/>
+  </Target>
+  <Components path="./">
+    <Component id="51" name="CooCox OS" path="" type="BasicComponet"/>
+    <Component id="253" name="CMSIS_boot" path="" type="BasicComponet"/>
+    <Component id="254" name="Common_Header" path="" type="BasicComponet"/>
+    <Component id="255" name="CLKPWR" path="" type="BasicComponet"/>
+    <Component id="256" name="NVIC" path="" type="BasicComponet"/>
+    <Component id="257" name="GPIO" path="" type="BasicComponet"/>
+    <Component id="258" name="PINSEL" path="" type="BasicComponet"/>
+    <Component id="260" name="CAN" path="" type="BasicComponet"/>
+    <Component id="262" name="SSP" path="" type="BasicComponet"/>
+    <Component id="269" name="RTC" path="" type="BasicComponet"/>
+    <Component id="272" name="GPDMA" path="" type="BasicComponet"/>
+    <Component id="275" name="UART" path="" type="BasicComponet"/>
+  </Components>
+  <LocalComponents/>
+  <Files>
+    <File name="ThreadSafeQueue.h" path="ThreadSafeQueue.h" type="1"/>
+    <File name="fat_sd/spi_sd_lpc17xx.c" path="fat_sd/spi_sd_lpc17xx.c" type="1"/>
+    <File name="CoOS/kernel/OsServiceReq.h" path="CoOS/kernel/OsServiceReq.h" type="1"/>
+    <File name="StorageTask.c" path="StorageTask.c" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_gpdma.h" path="lpc17xx_lib/include/lpc17xx_gpdma.h" type="1"/>
+    <File name="fat_sd/ff.h" path="fat_sd/ff.h" type="1"/>
+    <File name="CoOS/portable/GCC" path="" type="2"/>
+    <File name="syscalls/syscalls.c" path="syscalls/syscalls.c" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_nvic.c" path="lpc17xx_lib/source/lpc17xx_nvic.c" type="1"/>
+    <File name="CoOS/kernel/task.c" path="CoOS/kernel/task.c" type="1"/>
+    <File name="CoOS/portable/GCC/port.c" path="CoOS/portable/GCC/port.c" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_pinsel.c" path="lpc17xx_lib/source/lpc17xx_pinsel.c" type="1"/>
+    <File name="fat_sd/ff.c" path="fat_sd/ff.c" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_ssp.c" path="lpc17xx_lib/source/lpc17xx_ssp.c" type="1"/>
+    <File name="CoOS/kernel/OsKernelHeap.h" path="CoOS/kernel/OsKernelHeap.h" type="1"/>
+    <File name="cmsis_boot/startup/startup_LPC17xx.c" path="cmsis_boot/startup/startup_LPC17xx.c" type="1"/>
+    <File name="CoOS/kernel/OsTime.h" path="CoOS/kernel/OsTime.h" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_gpio.c" path="lpc17xx_lib/source/lpc17xx_gpio.c" type="1"/>
+    <File name="CoOS/kernel" path="" type="2"/>
+    <File name="lpc17xx_lib/include/lpc17xx_ssp.h" path="lpc17xx_lib/include/lpc17xx_ssp.h" type="1"/>
+    <File name="CoOS/kernel/time.c" path="CoOS/kernel/time.c" type="1"/>
+    <File name="StorageTask.h" path="StorageTask.h" type="1"/>
+    <File name="CoOS/portable/OsArch.h" path="CoOS/portable/OsArch.h" type="1"/>
+    <File name="fat_sd/ffconf.h" path="fat_sd/ffconf.h" type="1"/>
+    <File name="CoOS/kernel/OsCore.h" path="CoOS/kernel/OsCore.h" type="1"/>
+    <File name="CoOS/kernel/sem.c" path="CoOS/kernel/sem.c" type="1"/>
+    <File name="CoOS/kernel/OsQueue.h" path="CoOS/kernel/OsQueue.h" type="1"/>
+    <File name="CoOS/kernel/CoOS.h" path="CoOS/kernel/CoOS.h" type="1"/>
+    <File name="Debug.c" path="Debug.c" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_pinsel.h" path="lpc17xx_lib/include/lpc17xx_pinsel.h" type="1"/>
+    <File name="GM862.c" path="GM862.c" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_can.c" path="lpc17xx_lib/source/lpc17xx_can.c" type="1"/>
+    <File name="CoOS/kernel/mutex.c" path="CoOS/kernel/mutex.c" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_libcfg_default.h" path="lpc17xx_lib/include/lpc17xx_libcfg_default.h" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_nvic.h" path="lpc17xx_lib/include/lpc17xx_nvic.h" type="1"/>
+    <File name="NotificationTask.h" path="NotificationTask.h" type="1"/>
+    <File name="cmsis_boot/system_LPC17xx.c" path="cmsis_boot/system_LPC17xx.c" type="1"/>
+    <File name="CanTask.c" path="CanTask.c" type="1"/>
+    <File name="CoOS/kernel/flag.c" path="CoOS/kernel/flag.c" type="1"/>
+    <File name="CoOS/kernel/utility.h" path="CoOS/kernel/utility.h" type="1"/>
+    <File name="CoOS/kernel/mm.c" path="CoOS/kernel/mm.c" type="1"/>
+    <File name="CoOS/kernel/OsError.h" path="CoOS/kernel/OsError.h" type="1"/>
+    <File name="cmsis_boot/LPC17xx.h" path="cmsis_boot/LPC17xx.h" type="1"/>
+    <File name="cmsis" path="" type="2"/>
+    <File name="lpc17xx_lib/include/lpc17xx_rtc.h" path="lpc17xx_lib/include/lpc17xx_rtc.h" type="1"/>
+    <File name="NotificationTask.c" path="NotificationTask.c" type="1"/>
+    <File name="CoOS/kernel/kernelHeap.c" path="CoOS/kernel/kernelHeap.c" type="1"/>
+    <File name="GM862.h" path="GM862.h" type="1"/>
+    <File name="cmsis_boot/system_LPC17xx.h" path="cmsis_boot/system_LPC17xx.h" type="1"/>
+    <File name="ThreadSafeQueue.c" path="ThreadSafeQueue.c" type="1"/>
+    <File name="lpc17xx_lib/include" path="" type="2"/>
+    <File name="CoOS/kernel/serviceReq.c" path="CoOS/kernel/serviceReq.c" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_uart.c" path="lpc17xx_lib/source/lpc17xx_uart.c" type="1"/>
+    <File name="fat_sd/integer.h" path="fat_sd/integer.h" type="1"/>
+    <File name="CoOS/kernel/coocox.h" path="CoOS/kernel/coocox.h" type="1"/>
+    <File name="fat_sd" path="" type="2"/>
+    <File name="main.c" path="main.c" type="1"/>
+    <File name="SensorDataManager.h" path="SensorDataManager.h" type="1"/>
+    <File name="CoOS/kernel/utility.c" path="CoOS/kernel/utility.c" type="1"/>
+    <File name="CoOS/kernel/OsConfig.h" path="CoOS/kernel/OsConfig.h" type="1"/>
+    <File name="fat_sd/diskio.h" path="fat_sd/diskio.h" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_libcfg_default.c" path="lpc17xx_lib/source/lpc17xx_libcfg_default.c" type="1"/>
+    <File name="CoOS/kernel/queue.c" path="CoOS/kernel/queue.c" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_gpdma.c" path="lpc17xx_lib/source/lpc17xx_gpdma.c" type="1"/>
+    <File name="cmsis_boot" path="" type="2"/>
+    <File name="cmsis_boot/startup" path="" type="2"/>
+    <File name="CoOS/kernel/OsTask.h" path="CoOS/kernel/OsTask.h" type="1"/>
+    <File name="lpc17xx_lib" path="" type="2"/>
+    <File name="CoOS/kernel/timer.c" path="CoOS/kernel/timer.c" type="1"/>
+    <File name="cmsis/core_cm3.c" path="cmsis/core_cm3.c" type="1"/>
+    <File name="CoOS/kernel/OsFlag.h" path="CoOS/kernel/OsFlag.h" type="1"/>
+    <File name="lpc17xx_lib/source" path="" type="2"/>
+    <File name="Misc.c" path="Misc.c" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_clkpwr.h" path="lpc17xx_lib/include/lpc17xx_clkpwr.h" type="1"/>
+    <File name="CoOS/kernel/OsMutex.h" path="CoOS/kernel/OsMutex.h" type="1"/>
+    <File name="CoOS/kernel/OsTimer.h" path="CoOS/kernel/OsTimer.h" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_can.h" path="lpc17xx_lib/include/lpc17xx_can.h" type="1"/>
+    <File name="Misc.h" path="Misc.h" type="1"/>
+    <File name="CoOS/kernel/OsEvent.h" path="CoOS/kernel/OsEvent.h" type="1"/>
+    <File name="CoOS/portable/arch.c" path="CoOS/portable/arch.c" type="1"/>
+    <File name="cmsis/core_cm3.h" path="cmsis/core_cm3.h" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_uart.h" path="lpc17xx_lib/include/lpc17xx_uart.h" type="1"/>
+    <File name="fat_sd/spi_sd_lpc17xx.h" path="fat_sd/spi_sd_lpc17xx.h" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_clkpwr.c" path="lpc17xx_lib/source/lpc17xx_clkpwr.c" type="1"/>
+    <File name="CoOS/kernel/event.c" path="CoOS/kernel/event.c" type="1"/>
+    <File name="lpc17xx_lib/source/lpc17xx_rtc.c" path="lpc17xx_lib/source/lpc17xx_rtc.c" type="1"/>
+    <File name="lpc17xx_lib/include/lpc17xx_gpio.h" path="lpc17xx_lib/include/lpc17xx_gpio.h" type="1"/>
+    <File name="TelemetryTask.c" path="TelemetryTask.c" type="1"/>
+    <File name="Debug.h" path="Debug.h" type="1"/>
+    <File name="SensorDataManager.c" path="SensorDataManager.c" type="1"/>
+    <File name="CoOS/kernel/mbox.c" path="CoOS/kernel/mbox.c" type="1"/>
+    <File name="CoOS/kernel/core.c" path="CoOS/kernel/core.c" type="1"/>
+    <File name="CoOS" path="" type="2"/>
+    <File name="fat_sd/diskio.c" path="fat_sd/diskio.c" type="1"/>
+    <File name="syscalls" path="" type="2"/>
+    <File name="CoOS/portable" path="" type="2"/>
+    <File name="CoOS/kernel/OsMM.h" path="CoOS/kernel/OsMM.h" type="1"/>
+    <File name="TelemetryTask.h" path="TelemetryTask.h" type="1"/>
+    <File name="CoOS/kernel/hook.c" path="CoOS/kernel/hook.c" type="1"/>
+    <File name="CanTask.h" path="CanTask.h" type="1"/>
+    <File name="lpc17xx_lib/include/lpc_types.h" path="lpc17xx_lib/include/lpc_types.h" type="1"/>
+    <File name="fat_sd/fattime.c" path="fat_sd/fattime.c" type="1"/>
+  </Files>
+  <Bookmarks/>
+</Project>
